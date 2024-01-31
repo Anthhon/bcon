@@ -15,7 +15,7 @@ To compile and run the program, you need to have a C compiler installed on your 
 3. Compile the program using the following command:
 
 ```shell
-   gcc -o program_name program_name.c
+   gcc -o bcon main.c
 ```
 
 Replace program_name with your desired name for the executable.
@@ -23,7 +23,7 @@ Replace program_name with your desired name for the executable.
 4. Run the program with the following command:
 
 ```shell
-   ./program_name <number> [options]
+   ./bcon <number> [options]
 Replace <number> with the number you want to convert.
 Available options:
     -v: Enable verbose mode.
@@ -32,7 +32,7 @@ Available options:
 ## Example
 
 ```shell
-  $ ./program_name 42 -v
+  $ ./bcon 42 -v
   BINARY    HEXADECIMAL    OCTAL
   101010    0x2A           52
 ```
